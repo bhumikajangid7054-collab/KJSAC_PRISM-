@@ -459,3 +459,171 @@ margin-bottom:25px;
 color:#1D4ED8;
 font-weight:600;
 }
+/* ========= FOOTER ========= */
+
+footer{
+background:#0F172A;
+color:#fff;
+padding:80px 0 30px;
+margin-top:100px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:2fr 1fr 1fr;
+gap:60px;
+}
+
+.footer-grid h2{
+font-family:'Cormorant Garamond',serif;
+font-size:40px;
+margin-bottom:15px;
+}
+
+.footer-grid h4{
+margin-bottom:18px;
+font-size:18px;
+}
+
+.footer-grid p{
+color:#CBD5E1;
+margin-bottom:12px;
+}
+
+.footer-grid a{
+display:block;
+margin-bottom:12px;
+color:#CBD5E1;
+transition:.3s;
+}
+
+.footer-grid a:hover{
+color:#ffffff;
+}
+
+.copyright{
+margin-top:50px;
+padding-top:25px;
+border-top:1px solid rgba(255,255,255,.15);
+text-align:center;
+color:#94A3B8;
+font-size:14px;
+}
+
+/* ========= ANIMATIONS ========= */
+
+.primary-btn,
+.secondary-btn,
+.article-card,
+.event-card,
+.hero-image img{
+transition:all .35s ease;
+}
+
+.hero-image img:hover{
+transform:translateY(-10px);
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+transform:translateY(-3px);
+}
+
+/* ========= RESPONSIVE ========= */
+
+@media(max-width:992px){
+
+.hero-grid,
+.issue-card,
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.article-grid,
+.events-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:60px 0;
+}
+
+.hero h1{
+font-size:58px;
+}
+
+.hero h3{
+font-size:24px;
+}
+
+.section-heading h2,
+.about-preview h2{
+font-size:42px;
+}
+
+nav ul{
+gap:20px;
+}
+
+}
+
+@media(max-width:768px){
+
+.nav-wrapper{
+flex-direction:column;
+gap:20px;
+}
+
+.brand{
+flex-direction:column;
+text-align:center;
+}
+
+.brand img{
+width:70px;
+height:70px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero{
+text-align:center;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.welcome{
+margin:auto auto 40px;
+}
+
+.issue-card{
+padding:25px;
+}
+
+.article-card,
+.event-card{
+padding:25px;
+}
+
+.section-heading h2{
+font-size:36px;
+}
+
+.about-preview h2{
+font-size:36px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero h3{
+font-size:22px;
+}
+
+}
