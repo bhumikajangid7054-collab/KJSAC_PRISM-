@@ -279,3 +279,183 @@ border-radius:24px;
 box-shadow:0 30px 70px rgba(0,0,0,.12);
 
 }
+/* ========= SECTION HEADINGS ========= */
+
+.section-heading{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-heading span{
+color:#1D4ED8;
+font-weight:600;
+letter-spacing:1px;
+text-transform:uppercase;
+font-size:14px;
+}
+
+.section-heading h2{
+font-family:'Cormorant Garamond',serif;
+font-size:52px;
+color:#0F172A;
+margin:12px 0;
+}
+
+.section-heading p{
+max-width:650px;
+margin:auto;
+color:#666;
+}
+
+/* ========= LATEST ISSUE ========= */
+
+.latest-issue{
+padding:90px 0;
+}
+
+.issue-card{
+display:grid;
+grid-template-columns:.8fr 1.2fr;
+gap:50px;
+background:#fff;
+border-radius:24px;
+padding:40px;
+box-shadow:0 15px 40px rgba(0,0,0,.06);
+align-items:center;
+}
+
+.issue-card img{
+border-radius:18px;
+}
+
+.issue-content h3{
+font-family:'Cormorant Garamond',serif;
+font-size:42px;
+margin-bottom:20px;
+color:#0F172A;
+}
+
+.issue-content p{
+color:#666;
+margin-bottom:30px;
+}
+
+/* ========= ABOUT ========= */
+
+.about-preview{
+padding:100px 0;
+text-align:center;
+}
+
+.narrow{
+max-width:800px;
+}
+
+.about-preview span{
+color:#1D4ED8;
+font-weight:600;
+text-transform:uppercase;
+}
+
+.about-preview h2{
+font-family:'Cormorant Garamond',serif;
+font-size:54px;
+margin:18px 0;
+}
+
+.about-preview p{
+font-size:18px;
+color:#555;
+margin-bottom:40px;
+}
+
+/* ========= EVENTS ========= */
+
+.events-preview{
+padding:90px 0;
+background:#ffffff;
+}
+
+.events-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.event-card{
+padding:35px;
+border-radius:20px;
+background:#F8F6F2;
+transition:.35s;
+}
+
+.event-card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.event-card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:30px;
+margin-bottom:12px;
+color:#0F172A;
+}
+
+.event-card p{
+color:#666;
+}
+
+.center{
+text-align:center;
+margin-top:50px;
+}
+
+/* ========= FEATURED ARTICLES ========= */
+
+.featured{
+padding:100px 0;
+}
+
+.article-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.article-card{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+transition:.35s;
+}
+
+.article-card:hover{
+transform:translateY(-8px);
+}
+
+.category{
+display:inline-block;
+font-size:12px;
+font-weight:700;
+color:#1D4ED8;
+margin-bottom:15px;
+letter-spacing:1px;
+}
+
+.article-card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:30px;
+margin-bottom:15px;
+color:#0F172A;
+}
+
+.article-card p{
+color:#666;
+margin-bottom:25px;
+}
+
+.article-card a{
+color:#1D4ED8;
+font-weight:600;
+}
